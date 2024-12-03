@@ -788,7 +788,7 @@
         <spray.version>1.3.1</spray.version>
         <spring.security.version>5.7.2</spring.security.version>
         <spring.version>5.3.21</spring.version>
-        <sqoop.version>1.4.6.2.3.99.0-195</sqoop.version>
+        <sqoop.version>1.4.7.7.2.17.0-334</sqoop.version>
         <storm.version>2.3.0</storm.version>
         <surefire.forkCount>2C</surefire.forkCount>
         <surefire.version>3.0.0-M5</surefire.version>
@@ -847,13 +847,18 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-        <repository>
+        <!--<repository>
             <id>hortonworks.repo</id>
             <url>https://repo.hortonworks.com/content/repositories/releases</url>
             <name>Hortonworks Repo</name>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
+        </repository>-->
+        <repository>
+            <id>repository.cloudera</id>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+            <name>Cloudera Repository</name>
         </repository>
         <repository>
             <id>apache.snapshots.repo</id>
